@@ -16,17 +16,7 @@ pip install -r requirements.txt
 
 ## Run
 
-```bash
-python diagnose.py
-```
-
-# reproduces the failure and reports the gradient check
-
-```bash
-python fix_stages.py
-```
-
-# runs each fix stage and saves a comparison plot
+Open the Jupyter Notebook Open the .ipynb file and run the cells from top to bottom.
 
 ## Diagnosis
 
@@ -36,7 +26,7 @@ The diagnosis showed that the gradient of this network is stuck at 0 throughout 
 
 Stage 0 (baseline): final loss 0.689
 Stage 1 (+ initialization): final loss 0.3288
-Stage 2 (+ normalization): final loss 0.XXX
+Stage 2 (+ normalization): final loss 0.1937
 Stage 3 (+ optimizer/schedule, optional): final loss 0.XXX
 
 ## Conclusion
